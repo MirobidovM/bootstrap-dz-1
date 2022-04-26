@@ -1,0 +1,54 @@
+/* livvic-600 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(""), url("../fonts/livvic-v11-latin-600.woff2") format("woff2"),
+    url("../fonts/livvic-v11-latin-600.woff") format("woff");
+}
+/* livvic-700 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(""), url("../fonts/livvic-v11-latin-700.woff2") format("woff2"),
+    url("../fonts/livvic-v11-latin-700.woff") format("woff");
+}
+
+body {
+  font-family: "Livvic", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #004047;
+}
+
+p {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+}
+
+blockquote {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.h1-text {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.item-class {
+  padding-left: 40px;
+  padding-right: 40px;
+}
